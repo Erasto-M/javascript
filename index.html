@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="myscript.js">
+      
+    </script>
+</head>
+<body>
+    <button onclick="document.getElementById('demo1').innerHTML = 'you clicked the button'">click me</button>
+    <h1 id="demo1">Welcome to this school</h1>
+    <button onclick="document.getElementById('demo2').src='images.png'">Turn on bulb</button>
+    <img src="pic_bulboff.gif" id="demo2">
+    <button onclick="document.getElementById('demo2').src ='pic_bulboff.gif'">Turn off bulb</button>
+    <h2 id="demo3">My name is dekut</h2>
+    <button onclick="document.getElementById('demo3').style.fontSize= '40px'">change style</button>
+    <button onclick="document.getElementById('demo3').style.display='none'">hide</button>
+    <button onclick="document.getElementById('demo3').style.display='block'">show</button>
+    <br>
+    <p id="man"></p>
+    <script>
+        document.getElementById("man").innerHTML ="This is my school";
+       </script>
+       <h1 id="sum">sum</h1>
+       <button onclick="myaddition()">do addition</button>
+       <h1>Get my Personal details</h1>
+       <h1 id="details">my name</h1>
+       <button onclick="mydetails()">get my details</button>
+       <h2 id="grade"></h2>
+      <button onclick="mygrade()">view grade</button>
+</body>
+</html>
